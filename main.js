@@ -143,7 +143,7 @@ const createTableElement = (table) => {
 
   const thead = document.createElement("thead");
   const headerRow = document.createElement("tr");
-  const headers = ["Name", "Data type", "PK", "FK", "UQ", "Not null", "Default value", "Description"];
+  const headers = ["Name", "Data Type", "PK", "FK", "UQ", "Not null", "Default value", "Description"];
   headers.forEach((headerText) => {
     const th = document.createElement("th");
     th.textContent = headerText;
